@@ -1,0 +1,23 @@
+.card-fixed-width {
+  width: 18rem;
+}
+
+.scroll-horizontal {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.starwars-card {
+  width: 20rem;   
+  min-width: 20rem;
+}
+
+.starwars-card img {
+  border-radius: 5px;
+  height: 250px;        
+  object-fit: cover;    
+}
